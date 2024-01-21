@@ -100,6 +100,10 @@ tr {
     margin-bottom: 0px;
 }
 
+tr:hover {
+    background-color: #b5dc66;
+}
+
 td {
     padding-left: 50px;
 }
