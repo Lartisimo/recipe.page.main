@@ -1,0 +1,111 @@
+body {
+    color: #333;
+    background-color: rgb(221, 198, 202);
+    margin: 150px;
+}
+
+/* === Container === */
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    width: 900px;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 60px;
+    margin-bottom: 100px;
+}
+
+.img {
+    height: 450px;
+    width: 900px;
+    border-radius: 20px;
+}
+
+.TitleRecipe {
+    font-size: 52px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    letter-spacing: 1.30px;
+}
+
+.description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #777;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+
+/* === preparation time === */
+.PrepatTime {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 40px;
+    color: #666;
+    background-color: #faf7f7;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.headingPrepat {
+    color: #713c6a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+}
+
+/* === Ingredients === */
+.Ingredients {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    color: #777;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+
+.header {
+    font-size: 44px;
+    color: rgb(152, 80, 77);
+    font-family: 'Young serif', serif;
+    letter-spacing: 1px;
+}
+
+.Instructions {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    color: #777;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+
+/* ==== Nutrition table === */
+table {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    line-height: 60px;
+    color: #777;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 0.3px solid #ddd5d5;
+    margin-bottom: 0px;
+}
+
+td {
+    padding-left: 50px;
+}
+
+/* === Signature === */
+.attribution {
+    display: flex;
+    justify-content: center;
+}
