@@ -1,29 +1,35 @@
 body {
     color: #333;
-    background-color: rgb(221, 198, 202);
-    margin: 150px;
+    background-color: rgb(239, 222, 211);
+    margin: 120px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        margin: 0;
+    }
 }
 
 /* === Container === */
 .container {
     display: flex;
     margin: 0 auto;
-    height: 100%;
-    width: 900px;
+    height: 1700px;
+    width: 600px;
     background-color: #FFF;
     border-radius: 20px;
-    padding: 60px;
+    padding: 40px;
     margin-bottom: 100px;
 }
 
 .img {
-    height: 450px;
-    width: 900px;
+    height: 300px;
+    width: 600px;
     border-radius: 20px;
 }
 
 .TitleRecipe {
-    font-size: 52px;
+    font-size: 33px;
     font-family: 'Young Serif', serif;
     font-weight: 400;
     letter-spacing: 1.30px;
@@ -31,7 +37,7 @@ body {
 
 .description {
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+    font-size: 14px;
     line-height: 30px;
     color: #777;
     letter-spacing: 0.3px;
@@ -41,34 +47,34 @@ body {
 /* === preparation time === */
 .PrepatTime {
     font-family: 'Outfit', sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
-    line-height: 40px;
+    line-height: 30px;
     color: #666;
     background-color: #faf7f7;
     padding: 20px;
-    font-size: 20px;
-    margin-bottom: 60px;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
 
 .headingPrepat {
     color: #713c6a;
     font-family: 'Outfit', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 /* === Ingredients === */
 .Ingredients {
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 30px;
     color: #777;
     letter-spacing: 0.3px;
     font-weight: 400;
 }
 
 .header {
-    font-size: 44px;
+    font-size: 26px;
     color: rgb(152, 80, 77);
     font-family: 'Young serif', serif;
     letter-spacing: 1px;
@@ -76,8 +82,8 @@ body {
 
 .Instructions {
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 30px;
     color: #777;
     letter-spacing: 0.3px;
     font-weight: 400;
@@ -86,8 +92,8 @@ body {
 /* ==== Nutrition table === */
 table {
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
-    line-height: 60px;
+    font-size: 14px;
+    line-height: 40px;
     color: #777;
     letter-spacing: 0.3px;
     font-weight: 400;
@@ -97,20 +103,22 @@ table {
 }
 
 tr {
-    border-bottom: 0.3px solid #ddd5d5;
+    border-bottom: 0.01px solid #f5ede4;
     margin-bottom: 0px;
+
 }
 
 tr:hover {
     background-color: #b5dc66;
 }
 
-td {
+.nutr {
     padding-left: 50px;
 }
 
 .color {
     color: rgb(152, 80, 77);
+    margin-right: 100px;
 }
 
 /* === Signature === */
