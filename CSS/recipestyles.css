@@ -25,7 +25,7 @@ body {
     height: 300px;
     width: 620px;
     border-radius: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .TitleRecipe {
@@ -33,6 +33,7 @@ body {
     font-family: 'Young Serif', serif;
     font-weight: 500;
     letter-spacing: 1.30px;
+    margin-bottom: 15px;
 }
 
 .description {
@@ -42,6 +43,7 @@ body {
     color: #666;
     letter-spacing: 0.3px;
     font-weight: 500;
+    margin-top: 15px;
 }
 
 /* === preparation time === */
@@ -50,7 +52,7 @@ body {
     margin-top: 20px;
     line-height: 30px;
     color: #666;
-    background-color: #f3ecf0;
+    background-color: #fffafd;
     padding: 20px;
     font-size: 16px;
     margin-bottom: 30px;
