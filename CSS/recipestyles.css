@@ -14,25 +14,24 @@ body {
 .container {
     display: flex;
     margin: 0 auto;
-    height: 1600px;
+    height: 1630px;
     width: 620px;
     background-color: #FFF;
     border-radius: 20px;
     padding: 40px;
-    margin-bottom: 100px;
 }
 
 .img {
     height: 300px;
     width: 620px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .TitleRecipe {
-    font-size: 35px;
+    font-size: 38px;
     font-family: 'Young Serif', serif;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1.30px;
 }
 
@@ -51,7 +50,7 @@ body {
     margin-top: 20px;
     line-height: 30px;
     color: #666;
-    background-color: #fffffb;
+    background-color: #f3ecf0;
     padding: 20px;
     font-size: 16px;
     margin-bottom: 30px;
@@ -61,6 +60,7 @@ body {
     color: #965b74;
     font-family: 'inter', sans-serif;
     font-size: 22px;
+    margin-top: 0;
 }
 
 /* === Ingredients === */
@@ -73,11 +73,11 @@ body {
 }
 
 .header {
-    font-size: 24px;
+    font-size: 26px;
     color: rgb(152, 80, 77);
     font-family: 'Young serif', serif;
     letter-spacing: 1px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 /* === Line === */
@@ -97,8 +97,8 @@ body {
 /* ==== Nutrition table === */
 table {
     font-family: 'Outfit', sans-serif;
-    font-size: 14px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 45px;
     color: #666;
     letter-spacing: 0.3px;
     font-weight: 400;
